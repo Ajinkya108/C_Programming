@@ -1,0 +1,60 @@
+/////////////////////////////////////////////////////////////////
+// 
+//  Required Header files
+//
+/////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+/////////////////////////////////////////////////////////////////
+//
+//  Function Name : KmtoMtrs
+//  Description :   Convert Km to Mtrs
+//  Input :         int
+//  output :        int
+//  Author :        Ajinkya Rajendra Ghag
+//  Date :          2/11/2025
+//
+/////////////////////////////////////////////////////////////////
+
+int KmtoMtrs(int iNo)
+{
+    int iCal = 0.0f;
+    if(iNo <= 0)
+    {
+        iNo = -iNo;
+    }
+
+    iCal = iNo * 1000 ;
+
+    return iCal;
+}   // End of KmtoMtrs
+
+/////////////////////////////////////////////////////////////////
+//
+//  Entry point function for the application
+//
+/////////////////////////////////////////////////////////////////
+
+int main()
+{
+    int iWidth = 0.0f;
+    int iRes = 0;
+    printf("Enter the KM to converted in meters:");
+    scanf("%d",&iWidth);
+
+    iRes = KmtoMtrs(iWidth);
+    
+    printf("%d km Converted in %d meters",iWidth,iRes);
+    return 0;
+}   // End of Main
+
+/////////////////////////////////////////////////////////////////
+//
+//  Testcases succesfully handaled by the application
+//
+//
+//
+//
+//
+/////////////////////////////////////////////////////////////////   
