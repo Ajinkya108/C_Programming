@@ -55,10 +55,11 @@ int main()
 
 /////////////////////////////////////////////////////////////////
 //
-//  Testcases succesfully handaled by the application
+//  Time Complexity: O(N/2)
 //
+//  Testcases successfully handled by the application
 //
-//
-//
+//  Input : 12       Output : 5       7       8       9       10      11
+//  Input : 6        Output : 4       5
 //
 /////////////////////////////////////////////////////////////////   

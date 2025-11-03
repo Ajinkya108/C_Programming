@@ -58,8 +58,8 @@ int main()
 //
 //  Testcases succesfully handaled by the application
 //
-//
-//
+//  Input : 16 95 45           Output : 95 is greatest in 3
+//  Input : 68 65 -89          Output : 68 is greatest in 3
 //
 //
 /////////////////////////////////////////////////////////////////   

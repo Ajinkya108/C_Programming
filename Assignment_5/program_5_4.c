@@ -58,8 +58,8 @@ int main()
 //
 //  Testcases succesfully handaled by the application
 //
-//
-//
+//  Input : 23           Output : 23 is Positive
+//  Input : -98          Output : -98 is Negative
 //
 //
 /////////////////////////////////////////////////////////////////   

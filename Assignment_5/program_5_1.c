@@ -65,8 +65,8 @@ int main()
 //
 //  Testcases succesfully handaled by the application
 //
-//
-//
-//
+//  Input1 : 22       Output : 22 Number is Even.
+//  Input1 : 57       Output : 57 Number is Odd.
+//  Input1 : 2.7      Output : 2.7 Number is Odd.
 //
 /////////////////////////////////////////////////////////////////   

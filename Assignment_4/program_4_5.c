@@ -20,13 +20,13 @@
 int DisplayDifferFactor(int iNo)                
 {
     int iCnt = 0;
-    int iCal = 0 , iNonCal = 0, iRes = 0;
+    int iCal = 0 , iNonCal = 0, iRes = 0;   // store output
     if(iNo < 0)
     {
         iNo = -iNo;
     }
     
-    for(iCnt = 1;iCnt < iNo ; iCnt++)
+    for(iCnt = 1;iCnt < iNo ; iCnt++)       // logic
     {
             if(iNo % iCnt == 0)
             {
@@ -62,10 +62,11 @@ int main()
 
 /////////////////////////////////////////////////////////////////
 //
-//  Testcases succesfully handaled by the application
+//  Time Complexity: O(N)
 //
+//  Testcases successfully handled by the application
 //
-//
-//
+//  Input : 15        Output : -87
+//  Input : 12        Output : -34
 //
 /////////////////////////////////////////////////////////////////   

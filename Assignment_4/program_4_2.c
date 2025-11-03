@@ -54,11 +54,10 @@ int main()
 }   // End of Main
 
 /////////////////////////////////////////////////////////////////
-//
+//  Time Complexity: O(N/2)
 //  Testcases succesfully handaled by the application
 //
-//
-//
-//
+//  Input : 6       Output : 6  3   2   1
+//  Input : 10      Output : 10 5   2   1
 //
 /////////////////////////////////////////////////////////////////   

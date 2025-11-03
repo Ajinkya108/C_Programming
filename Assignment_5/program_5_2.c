@@ -59,8 +59,8 @@ int main()
 //
 //  Testcases succesfully handaled by the application
 //
-//
-//
+//  Input1 : 19     94          Output : 94 is greater than 19
+//  Input1 : 652    56          Output : 652 is greater than 56
 //
 //
 /////////////////////////////////////////////////////////////////   
