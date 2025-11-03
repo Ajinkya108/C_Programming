@@ -17,16 +17,16 @@
 //
 /////////////////////////////////////////////////////////////////
 
-void DisplayEvenFactor(int iNo)                
+void DisplayEvenFactor(int iNo)                  // Innput           
 {
     int iCnt = 0;
 
-    if(iNo < 0)
+    if(iNo < 0)                                 // Updator
     {
         iNo = -iNo;
     }
     
-    for(iCnt = 1;iCnt <= (iNo/2); iCnt++)
+    for(iCnt = 1;iCnt <= (iNo/2); iCnt++)       // logic
     {
             if(iNo % iCnt == 0 && iCnt % 2 == 0 )
             {
@@ -44,7 +44,7 @@ void DisplayEvenFactor(int iNo)
 
 int main()
 {
-    int iValue1 = 0;
+    int iValue1 = 0;                // Input
 
     printf("Enter the number :");
     scanf("%d",&iValue1);
@@ -57,9 +57,6 @@ int main()
 /////////////////////////////////////////////////////////////////
 //
 //  Testcases succesfully handaled by the application
-//
-//
-//
-//
+//  Input = 36      output : 2  6   12  18
 //
 /////////////////////////////////////////////////////////////////   

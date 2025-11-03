@@ -18,7 +18,7 @@
 //
 /////////////////////////////////////////////////////////////////
 
-void DisplayConvert(char cChar)                
+void DisplayConvert(char cChar)                   
 {
     if(isalpha(cChar))
     {
@@ -48,7 +48,7 @@ void DisplayConvert(char cChar)
 
 int main()
 {
-    char cValue = 0;
+    char cValue = 0;            // user input
 
     printf("Enter the Character :");
     scanf("%c",&cValue);
@@ -61,9 +61,7 @@ int main()
 /////////////////////////////////////////////////////////////////
 //
 //  Testcases succesfully handaled by the application
-//
-//
-//
-//
+//  Input : a   output : A
+//  Input : A   output : a
 //
 /////////////////////////////////////////////////////////////////   

@@ -17,9 +17,9 @@
 //
 /////////////////////////////////////////////////////////////////
 
-void PrintEven(int iNo)                
+void PrintEven(int iNo)                 // input
 {
-    int iCnt = 0, iFreqency = 0;
+    int iCnt = 0, iFreqency = 0;        // for calculations
 
     if(iNo <= 0)
     {
@@ -30,7 +30,7 @@ void PrintEven(int iNo)
 
     for(iCnt = 1;iCnt <= iNo; iCnt++)
     {
-            printf("%d\t",iFreqency);
+            printf("%d\t",iFreqency);       //logic
             iFreqency+=2;
     }
 
@@ -44,12 +44,12 @@ void PrintEven(int iNo)
 
 int main()
 {
-    int iValue1 = 0;
+    int iValue1 = 0;                       // user input
 
     printf("Enter the number :");
     scanf("%d",&iValue1);
 
-    PrintEven(iValue1);  // Method Call
+    PrintEven(iValue1);                 // Method Call
 
     return 0;
 }   // End of Main
@@ -57,9 +57,7 @@ int main()
 /////////////////////////////////////////////////////////////////
 //
 //  Testcases succesfully handaled by the application
-//
-//
-//
-//
+//  Input : 5           Output : 2  4   6   8   10
+//  Input : 7           Output : 2  4   6   8   10   12   14
 //
 /////////////////////////////////////////////////////////////////   
